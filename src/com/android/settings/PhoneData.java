@@ -336,7 +336,24 @@ public final class PhoneData {
                        "1080 x 2400, 6.44 inches",
                        "64MP + 16MP + 2MP + 2MP, 32MP"
                ));
-
+	       //ulysse
+	       data.add(new AboutPhoneData(38,
+		       "ugglite",
+		       "4 x 1.4 GHz, Cortex-A53",
+		       "Snapdragon 425",
+		       "3080",
+		       "720 x 1280, 5.5 inches",
+		       "13MP + 5MP"
+               ));
+               data.add(new AboutPhoneData(35,
+                        "ugg",
+                        "8 x 1.4 GHz,Cortex-A53",
+                        "Snapdragon 435",
+                        "3080",
+                        "720 x 1280, 5.5 inches",
+                        "13MP + 16MP"
+               ));
+		   
 }
     public static List<AboutPhoneData> getData() {
 	return data;
